@@ -1,0 +1,33 @@
+@charset "utf-8";
+.con_right .info_part {
+	padding:0px;
+}
+.info_con .act_list{
+	height:auto;
+	font-size:16px;
+	color:#000;
+	list-style:none;
+}
+.info_con .act_list .list_con{
+	height:30px;
+	padding:10px 0px 0px 70px;
+	border-bottom:1px solid #DDD;
+}
+.info_con .act_list .list_con:hover{
+	background-color:#EEE;
+}
+.info_con .act_list .list_con .act_title{
+	width:400px;
+	float:left;
+}
+.info_con .act_list .list_con .act_date{
+	width:150px;
+	font-size:12px;
+	color:#999;
+	float:right;
+}
+.page_part{
+	width:200px;
+	margin:0 auto;
+	padding:20px 0px;
+}

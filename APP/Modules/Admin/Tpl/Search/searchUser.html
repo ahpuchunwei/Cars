@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title> 搜索表单</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <link href="__PUBLIC__/assets/css/dpl-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/assets/css/bui-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/assets/css/page-min.css" rel="stylesheet" type="text/css" />   <!-- 下面的样式，仅是为了显示代码，而不应该在项目中使用-->
+   <link href="__PUBLIC__/assets/css/prettify.css" rel="stylesheet" type="text/css" />
+   <style type="text/css">
+    code {
+      padding: 0px 4px;
+      color: #d14;
+      background-color: #f7f7f9;
+      border: 1px solid #e1e1e8;
+    }
+   </style>
+   
+   <script language="javascript" type="text/javascript">   
+         //定义 城市 数据数组   
+	cityArray = new Array();   
+	cityArray[0] = new Array("计算机学院","12级物联网班|嵌入式班|计算机科学与技术1班|计算机科学与技术2班|网络工程1班|网络工程二班|软件服务外包1班|软件服务外包二班|软件服务外包3班");   
+	cityArray[1] = new Array("外国语学院","商务英语1班|商务英语二班|日语一班|日语二班");   
+	cityArray[2] = new Array("体育学院","体育一班|体育二班|体育三班|体操");   
+         function getCity(currProvince)   
+         {   
+             //当前 所选择 的 省   
+             var currProvincecurrProvince = currProvince;   
+             var i,j,k;   
+             //清空 城市 下拉选单   
+            document.all.selCity.length = 0 ;   
+             for (i = 0 ;i <cityArray.length;i++)   
+               {      
+                   //得到 当前省 在 城市数组中的位置   
+                   if(cityArray[i][0]==currProvince)   
+                     {      
+                         //得到 当前省 所辖制的 地市   
+                        tmpcityArray = cityArray[i][1].split("|")   
+                           for(j=0;j<tmpcityArray.length;j++)   
+                           {   
+                             //填充 城市 下拉选单   
+                             document.all.selCity.options[document.all.selCity.length] = new Option(tmpcityArray[j],tmpcityArray[j]);   
+                           }   
+                     }   
+               }   
+         }   
+</script>
+ </head>
+ <body>
+  
+  <div class="container">
+    <div class="row">
+      <form id="searchForm" class="form-horizontal span24"  action="{:U(GROUP_NAME.'/Admin/Search/searchUser')}" method="post">  
+        <div class="row">
+          <div class="control-group span8">
+            <label class="control-label">学生编号：</label>
+            <div class="controls">
+              <input type="text" class="control-text" name="id">
+            </div>
+          </div>
+          <div class="control-group span8">
+            <label class="control-label">学生姓名：</label>
+            <div class="controls">
+              <input type="text" class="control-text" name="username">
+            </div>
+          </div>
+          <div class="control-group span8">
+            <label class="control-label">性别：</label>
+            <div class="controls" >
+              <select name="" id="" name="sex">
+                <option value="">所有</option>
+                
+                <option value="">男</option>
+                
+                <option value="">女</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="control-group span9">
+            <label class="control-label">所属单位</label>
+            
+            <select name='college'>   
+        				<option value="所有学院">所有学院</option>   
+        				<option value="计算机学院">计算机学院</option>   
+        				<option value="外国语学院">外国语学院</option>   
+        				<option value="体育学院">体育学院</option>    
+    		</select>   
+            
+            <div class="controls">
+					
+            </div>
+          </div>
+          <div class="span3 offset2">
+            <button  type="submit" id="btnSearch" class="button button-primary">搜索</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+  </div>
+  <table class='table'>
+  		<tr>
+  			<th>{$aa.id}</th>
+  			<th>{$aa.username}</th>
+  			<th>{$aa.uid}</th>
+  			<th>{$aa.sex}</th>
+  			<th>{$aa.logintime}</th>
+  			<th>{$aa.loginip}</th>
+  			<th>{$aa.college}</th>
+  			<th>{$aa._class}</th>
+  			<th>{$aa.phone}</th>
+  			<th>{$aa.operate}</th>
+  		</tr>
+  	
+  </table>
+  
+
+
+<body>
+</html>  

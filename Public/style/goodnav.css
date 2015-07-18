@@ -1,0 +1,83 @@
+﻿img { vertical-align: top; border: 0; }
+#hotpic {/*外框文字是25px*/
+	     margin-left:15px; 
+		 width: 546px;
+		 height: 322px;
+		 overflow: hidden; 
+		 float:left;
+
+}
+#NewsPic {
+		  position: relative;/*1234位置*/
+		  width: 546px;
+		  height:322px; 
+		  overflow: hidden; 
+}
+#NewsPic a { overflow: visible; 
+             border: 0; 
+			 text-decoration: none; 
+}
+#NewsPic .Picture {
+	position: absolute;
+	left: -2px;
+	top: 0;
+	width: 546px;
+	height:322px; 
+	
+}
+#NewsPic .Nav {
+	position: absolute;
+	height: 20px;
+	line-height: 20px;
+	bottom: 0;
+	right: 2px;
+}
+#NewsPic .Nav span {
+	font-size: 12px;
+	height: 20px;
+	font-weight: 400;
+	color: #FFF;
+	float: right;
+	display: block;
+	width: 24px;
+	text-align: center;
+	background: #000;
+	border-left: solid 1px #FFF;
+	cursor: pointer;
+}
+
+#NewsPic .Nav span.Normal {
+	color: #FFF;
+	background: #000;
+	filter: Alpha(opacity=50);
+	opacity:.5;
+}
+			
+#NewsPic .Nav span.Cur {
+	background: #ce0609; 
+	color: #FFF; 
+}
+
+#NewsPicTxt {
+	margin-top: 260px;
+	position: relative;
+	width: 250px;
+	font-family: Sans-Serif;
+	font-weight:bold;
+	color: #000;
+	font-size: 16px;
+	padding: 5px;
+	background-image:url(../images/titBac.png);
+}
+
+#NewsPicTxt a:link, #NewsPicTxt a:visited {
+	font-family: "Microsoft Yahei";
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+
+#NewsPicTxt a:hover {
+	color: red;
+}

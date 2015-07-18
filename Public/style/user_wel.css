@@ -1,0 +1,53 @@
+@charset "utf-8";
+.con_right .wel_part {
+	height: 150px;
+	width: 650px;
+	margin: 30px 0px 30px 50px;
+	border:1px solid #DDD;
+}
+.con_right .wel_part .wel_con {
+	height:100px;
+	padding:20px 20px;
+	
+}
+.wel_con .wel_img{
+	width:100px;
+	height:100px;
+	float:left;	
+	background-image:url(../images/user/wel_img.png);
+	background-repeat:no-repeat;
+}
+.wel_con .wel_txt{
+	float:left;
+}
+.wel_txt .welcome{
+	width:440px;
+	color:#DB2323;
+	font-size:20px;
+	padding-left:30px;
+}
+.wel_txt .login_info{
+	font-size:14px;
+	padding:20px 0px 0px 30px;
+}
+.login_info .ip_now{
+	padding-right:50px;
+}
+.login_info .login_time{
+	padding-top:15px;	
+}
+.con_right .tips_part {
+	height: 40px;
+	width: 650px;
+	margin: 0px 0px 30px 50px;
+	border:1px solid #DB6D00;
+	background-color:#FFC;
+	background-image:url(../images/user/tips_icon.png);
+	background-repeat:no-repeat;
+}
+.tips_part .tips_con{
+	color: #DB6D00;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 40px;
+}

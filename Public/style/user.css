@@ -1,0 +1,81 @@
+@charset "utf-8";
+#main {
+	width:1024px;	
+}
+.con_left {
+	width:220px;
+	float:left;
+	border-top:1px solid #DDD;
+	border-bottom:0px;	
+	border-left:1px solid #DDD;
+	border-right:1px solid #DDD;
+}
+.con_left h4,.con_right h4{
+	padding:8px 0px 8px 30px;
+	color:#DB2323;
+	background-color:#EEE;
+	font-size:14px;
+	border-bottom:1px solid #DDD;
+}
+.info{
+	height:150px;
+	padding:20px 20px;
+}
+.info info_1{
+	width:180px;
+	height:50px;
+}
+.info_1 .img{
+	width:50px;
+	height:50px;
+	border:	1px solid #EEE;
+	float:left;
+}
+.info_1 .name{
+	font-size:16px;
+	float:left;
+	padding:15px 0px 0px 15px;
+}
+.info info_2{
+	width:180px;
+	height:40px;
+}
+.info_2 .acc{
+	clear:both;
+	padding-left:30px;
+	padding-top:15px;
+	font-size:14px;
+}
+.info_2 .class{
+	clear:both;	
+	padding-left:30px;
+	font-size:14px;
+}
+.info .quit{
+	font-size:14px;
+	margin-top:15px;
+	float:right;	
+}
+.control .control_ul ul{
+	padding:0px;
+	list-style:none;
+}
+.control .control_ul ul li{
+	font-size:14px;
+	padding:10px 0px;
+	text-align:center;
+	background-color: #FAFAFA;
+	border-bottom:1px solid #DDD;
+}
+.control .control_ul ul li:hover{
+	background-color: #EEE;
+}
+.con_right{
+	width: 750px;
+	height: auto;
+	float: right;
+	border: 1px solid #DDD;
+}
+.con_right .info_part {
+	padding:20px 0px;
+}

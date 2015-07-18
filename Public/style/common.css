@@ -1,0 +1,278 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input, textarea,blockquote,th,td,p,span,ol,ul,li{
+	margin:0;
+}
+body {
+	font-size: 12px;
+	font-family: "Microsoft Yahei","微软雅黑";
+}
+a:link,a:visited{
+	color:#000;
+ 	text-decoration:none;
+}
+a:hover{
+ 	text-decoration:none;
+	color:#DB2323;
+}
+
+#head_part{
+	height:auto;
+	width:auto;
+}
+/*顶部栏*/
+#Top {
+	height: 35px;
+	width: 100%;
+	background-color:#F1F1F1;
+}
+#top_con{
+	width:1024px;
+	margin:auto;
+}
+#time{
+	width:240px;
+	float:left;
+	margin-top:7px;
+	margin-left:20px;
+}
+#weather{
+	width:300px;
+	float:left;
+	margin-top:3px;
+	margin-left:100px;  
+}
+#top_right{
+	float:right;
+	margin-top:7px;
+	margin-right:20px;
+}
+#top_right a.nv{
+	text-align:center;
+	color: #000;
+	
+}
+#top_right a.nv:hover
+{
+	color:#FFF;
+	background-color:#A80043;
+}
+
+/*logo部分*/
+#logo{
+	height: 200px;
+	width: 1024px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-image: url(images/banner1.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+/*导航条部分开始*/
+#bar{
+	height: 40px;
+	background-color: #DB2323;
+	/*导航条只在中间部分显示*/
+	width: 1024px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	/*导航条展开100%,适配高分辨率屏幕*/
+	/*
+	width:100%;
+	margin: 0,auto;
+	*/
+}
+#lm{
+	height: 40px;
+	position: relative;
+	width: 1024px;
+	font-size: 14px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#lm a.nv{
+	float:left;
+	width:100px;
+	font-size:16px;
+
+	font-weight:bold;
+	line-height:40px;
+	text-align:center;
+	color: #FFF;
+}
+#lm a.nv:hover
+{
+	color: #FFF;
+	background-color:#CE1010;
+}
+/*搜索窗*/
+#search_area{
+	width:350px;
+	float:right;
+}
+#fenlei{
+	margin-top:7px;
+	font-size:16px;
+	font-family: "Microsoft Yahei","微软雅黑";
+	float:left;
+}
+
+#txt_search{
+	float:left;
+	font-size:16px;
+	font-family: "Microsoft Yahei","微软雅黑";
+	margin-top:7px;
+}
+#btn_search{
+	float:left;
+	font-size:16px;
+	font-family: "Microsoft Yahei","微软雅黑";
+	margin-top:7px;
+}
+
+#main {
+	margin:0;
+	clear:both;
+	height: auto;
+	width: 1000px;
+	margin: 12px auto 0px auto;
+	padding:0px 12px 0px 12px;
+}
+
+/*各个大标题的共用css*/
+.list_Title_icon {
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+	color: #FFF;
+	background-color: #DB2323;
+	width: auto;
+	font-size: 16px;
+	line-height:24px;
+	height:24px;
+	font-weight: bold;
+}
+.list_Title_con {
+	padding-left: 10px;
+	float: left;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #DB2323;
+}
+.list_Title_more {
+	float: right;
+	line-height:24px;
+	font-size: 14px;
+	padding-right: 10px;
+	color:#666
+}
+/*底部栏*/
+#bottom{
+	margin:0px;
+	clear:both;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:20px;
+	width: 1024px;
+	height: auto;
+}
+/*友情链接部分样式*/
+#bottom .friend_link {
+	width: 1024px;
+	height: 104px;
+	margin-bottom: 15px;
+}
+#bottom .list_Title{
+	width: 1024px;
+	height: 24px;
+	border-bottom: #DB2323 solid 2px;
+}
+#bottom .friend_link .list_Con{
+	width:1022px;
+	height:80px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin:0 , auto ;
+}
+#bottom .friend_link .list_Con .fls_icon{
+	margin-top:15px;
+	margin-left:21px;
+	width:175px;
+	height:50px;
+	border:1px solid #ddd;
+}
+/*帮助、网站地图部分样式*/
+#bottom .map_info{
+	margin:0;
+	padding:0;
+	width: 1022px;
+	height: 192px;
+	padding: 10px 0px;
+	border: 1px solid #ddd;
+
+}
+#bottom .map_info .foot_1{
+	float:left;	
+	width:720px;
+	height:180px;
+	margin:0 ;
+	margin-left:30px;
+	margin-right:30px;
+	list-style:none;
+	padding-top: 60px;
+}
+#bottom .map_info .foot_1 .span_foot_help{
+	float:left;
+	width:238px;
+}
+#bottom .map_info .foot_1 .span_foot_help .icon_weibo{
+	padding-left:40px;
+	background-image:url(../images/icon/foot_weibo.png);
+	background-repeat:no-repeat;
+}
+#bottom .map_info .foot_1 .span_foot_help .icon_centre{
+	padding-left:40px;
+	background-image:url(../images/icon/foot_center.png);
+	background-repeat:no-repeat;
+}
+#bottom .map_info .foot_1 .span_foot_help .icon_about{
+	padding-left:40px;
+	background-image:url(../images/icon/foot_about.png);
+	background-repeat:no-repeat;
+}
+#bottom .map_info .foot_1 .span_foot_help p{
+	padding-left:40px;
+	line-height:20px;
+	margin:0;
+}
+#bottom .map_info .foot_1 .span_foot_help p a {
+	color:#666;
+}
+#bottom .map_info .foot_1 .span_foot_help p a:hover{
+	color:#D42763;
+}
+/*二维码部分*/
+#bottom .map_info .foot_2{
+	float:left;	
+	width:200px;
+	height:180px;
+	margin-top:10px;
+}
+#bottom .map_info .foot_2 img {
+	border-left: 1px solid #ddd;
+	padding-left: 20px;
+	width: 160px;
+	height: 180px;
+}
+#bottom .copyrights{
+	clear:both;
+	width:1022px;
+	margin:20px 0px;
+}

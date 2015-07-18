@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+#head_part {
+	background-color: #DB2323;
+	height: 80px;
+}
+#head_part .head_inner {
+	width: 1000px;
+	margin:0 auto;
+	padding:10px 12px 10px 12px;
+}
+.head_inner img {
+	float: left;
+}
+.head_inner h1 {
+	float: left;
+	height: 45px;
+	width: 150px;
+	padding: 15px 0px 0px 15px;
+	color: #FFF;
+	border-left:2px dotted #FFFFFF;
+}
+#main {
+	width: 950px;
+	margin: 50px auto 0px auto;
+}
+/*底部拉远*/
+#bottom{
+	padding-top:100px;
+}
+
+#main .reg_table {
+	width: 500px;
+	margin: 0px auto;
+}
+.reg_table .input_part {
+	font-size: 14px;
+}
+.reg_table .input_part p {
+	margin-bottom:20px;
+}
+.reg_table .input_part .item{
+	width: 70px;
+	height:20px;
+	float: left;
+	text-align:right;
+	margin-right:10px;
+	padding-top:10px
+}
+.reg_table .input_part .tips{
+	padding-left: 90px;
+	color:#aaa;
+	width: 300px;
+}
+.reg_table .input_part .tips:hover{
+	color:#DB2323;
+}
+.reg_table .input_part .txt{
+	width: 350px;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 8px;
+	border: 2px solid #eee;
+}
+.reg_table .input_part .txt:hover{
+	border:2px solid #DB2323;
+}
+.reg_table .input_part .txt:focus{
+	/*输入框聚焦时边缘变色需要先去除浏览器自身效果*/
+	outline:none;
+	border:2px solid #DB2323;
+}
+.reg_table .input_part select {
+	font-size: 14px;
+	margin-top: 12px;
+}
+.reg_table .input_part .sel_sex {
+	font-size: 16px;
+	margin-top: 12px;
+}
+.sel_sex.label_sex{
+	margin-right:50px;	
+}
+.reg_table .input_part .sel_sex:hover {
+	color:#DB2323;
+}
+.reg_table .input_part .sel_acc{
+	margin-right:20px;
+}
+.reg_table .btn_part {
+	padding-top: 10px;
+	height: 50px;
+	width: 500px;
+	text-align: center;
+}
+.reg_table .btn_part .btn {
+	font-size: 16px;
+	width: 100px;
+	height: 40px;
+	margin:0 5px;
+	border: 0px;
+}
+.btn.btn_backhome{
+	background-color:#1BA1FF;
+	color:#FFF;
+}
+.btn.btn_backhome:hover{
+	background-color:#0075C4;
+}
+.btn.btn_submit{
+	background-color:#DB2323;
+	color:#FFF;
+}
+.btn.btn_submit:hover{
+	background-color:#B01C1C;
+}
+.btn.btn_reset{
+	background-color:#7FD052;
+	color:#FFF;
+}
+.btn.btn_reset:hover{
+	background-color:#4A8E26;
+}
+.reg_table .input_part .item_checksum .txt_check {
+	width: 150px;
+	float: left;
+	margin-right: 20px;
+}

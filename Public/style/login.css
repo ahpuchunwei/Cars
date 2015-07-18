@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+#head_part {
+	background-color: #DB2323;
+	height: 80px;
+}
+#head_part .head_inner {
+	width: 1000px;
+	margin:0 auto;
+	padding:10px 12px 10px 12px;
+}
+.head_inner img {
+	float: left;
+}
+.head_inner h1 {
+	float: left;
+	height: 45px;
+	width: 150px;
+	padding: 15px 0px 0px 15px;
+	color: #FFF;
+	border-left:2px dotted #FFFFFF;
+}
+
+#main {
+	width: 950px;
+	margin: 100px auto 0px auto;
+}
+
+/*左侧广告*/
+.left_con {
+	float: left;
+	
+}
+.left_con .for_ad {
+	padding: 24px 20px 22px 22px;
+	height: 350px;
+	width: 530px;
+}
+.left_con .for_ad img {
+	height: 350px;
+	width: 467px;
+}
+
+/*右侧登录*/
+.right_con {
+	float: right;
+	width: 360px;
+	
+}
+.right_con .login_tab {
+	height: 350px;
+	width: 300px;
+	border: 2px solid #ddd;
+	border-top: 4px solid #DB2323;
+	padding: 20px;
+}
+.right_con .login_tab .info_part {
+	width: 300px;
+	height: 40px;
+}
+.right_con .login_tab .info_part h2 {
+	width: 40px;
+	padding-left: 20px;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-left-color: #DB2323;
+	float: left;
+	font-size: 18px;
+	height: 28px;
+	padding-top: 2px;
+}
+.right_con .login_tab .info_part .error {
+	float: left;
+	border: 1px solid #DB2323;
+	background-color: #DB2323;
+	color: #FFF;
+	height: 23px;
+	margin-left: 30px;
+	padding: 5px 10px 0px 10px;
+}
+.right_con .login_tab .input_part {
+	width: 300px;
+}
+.right_con .login_tab .input_part p {
+	font-size: 16px;
+}
+.right_con .login_tab .input_part input {
+	font-size: 14px;
+	padding: 8px;
+	width: 280px;
+	border: 2px solid #eee;
+	margin: 3px 0px 15px 0px;
+}
+.right_con .login_tab .input_part .checksum {
+	height: 50px;
+	width: 300px;
+}
+
+.right_con .login_tab .input_part .txt_check {
+	width: 100px;
+	float: left;
+}
+.right_con .login_tab .input_part img {
+	float: right;
+}
+.right_con .login_tab .button_part {
+	clear: both;
+}
+.right_con .login_tab .button_part .btn {
+	font-size:18px;
+	height: 40px;
+	width: 300px;
+	border:0px;
+}
+.btn.btn_login{
+	background-color:#DB2323;
+	color:#FFF;
+}
+.btn.btn_login:hover{
+	background-color:#B01C1C;
+}
+.btn.btn_reg{
+	background-color:#7FD052;
+	color:#FFF;
+}
+.btn.btn_reg:hover{
+	background-color:#4A8E26;
+}
+.btn.btn_backhome{
+	background-color:#1BA1FF;
+	color:#FFF;
+}
+.btn.btn_backhome:hover{
+	background-color:#0075C4;
+}
+/*底部拉远*/
+#bottom{
+	padding-top:100px;
+}

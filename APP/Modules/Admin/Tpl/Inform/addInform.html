@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<link href="__PUBLIC__/assets/css/bui-min.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/assets/css/dpl-min.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+
+.bt2{padding:8px 15px;margin-right:6px; background: #4884D5;color:#fff;border-radius: 3px; text-align: center;;display: block;cursor: pointer;}  
+
+
+   </style>
+  
+<script type="text/javascript">
+	window.UEDITOR_HOME_URL='__ROOT__/Data/Ueditor/';
+	window.onload=function(){
+	window.UEDITOR_CONFIG.initialFrameHeight=400;
+	window.UEDITOR_CONFIG.initialFrameWidth=1440;
+	UE.getEditor('content');
+}
+	
+</script>
+<js file='__ROOT__/Data/Ueditor/ueditor.config.js'/>
+<js file='__ROOT__/Data/Ueditor/ueditor.all.min.js'/>
+
+<body>
+ <form action="{:U(GROUP_NAME.'/Inform/runAddInform')}" id="searchForm" method='post' ">
+ <table class='table'>
+ 		<tr>
+ 			<th colspan='2' align="left">
+ 			
+ 			发布通知
+ 			
+ 			</th>
+ 		</tr>
+ 		
+ 		<tr>
+ 			<td align="right" width='10%'>所属分类</td>
+ 			<td>
+ 				<select  name='type'>
+ 					<option value="校级通知">校级通知</option>
+ 					<option value="院级通知">院级通知</option>
+ 					<option value="社团通知">社团通知</option>
+ 				</select>
+ 			</td>
+ 		</tr>
+ 		 		
+ 		<tr>
+ 			<td align="right">标题</td>
+ 			<td>
+ 				<input type="text" name="title" size="20"/>
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td colspan='2'>
+ 				<textarea name="content" id="content" ></textarea>
+ 			</td>
+ 		</tr>
+ 		
+ 		<tr>
+ 			<td align="center" colspan='2'>
+ 			<input type="submit" value="发布" class="bt2"/>
+ 			</td>
+ 		</tr>
+ 		  
+ 		
+ </table>
+
+ 
+
+ </form>
+</body>
+</html>

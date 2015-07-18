@@ -1,0 +1,326 @@
+[ 2014-09-07T09:10:27+08:00 ] 127.0.0.1 /Cars/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.020881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.049826s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.028028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028217s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\wamp\www\Cars\APP\Lib\Action\CommonAction.class.php 第 4 行.
+
+[ 2014-09-07T09:10:28+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.123023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.013982s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.013757s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004194s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.011407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043771s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.014580s ]
+INFO: [ view_end ] --END-- [ RunTime:0.014728s ]
+
+[ 2014-09-07T09:10:28+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+
+[ 2014-09-07T09:10:56+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `up_user` [ RunTime:0.058831s ]
+SQL: SELECT * FROM `up_user` WHERE ( `uid` = 1208067024 ) LIMIT 1   [ RunTime:0.198957s ]
+SQL: UPDATE `up_user` SET `logintime`=1410052256,`loginip`='127.0.0.1' WHERE ( `id` = 50 ) [ RunTime:0.177118s ]
+
+[ 2014-09-07T09:10:56+08:00 ] 127.0.0.1 /Cars/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000974s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\wamp\www\Cars\APP\Lib\Action\CommonAction.class.php 第 4 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\Cars\APP\Modules\Admin\Action\IndexAction.class.php 第 4 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' C:\wamp\www\Cars\APP\Modules\Admin\Action\IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: time C:\wamp\www\Cars\APP\Modules\Admin\Action\IndexAction.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.112891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113092s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000591s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000722s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003067s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2014-09-07T09:10:58+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Activity/showRunActivity
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001364s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `up_activity` [ RunTime:0.032317s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `up_activity` WHERE ( `endtime` >= '2014-09-07' ) LIMIT 1   [ RunTime:0.026102s ]
+SQL: SELECT * FROM `up_activity` WHERE ( `endtime` >= '2014-09-07' ) ORDER BY starttime LIMIT 0,5   [ RunTime:0.000536s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\Cars\APP\Modules\Admin\Action\ActivityAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057870s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001124s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000961s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000691s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003924s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000989s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2014-09-07T09:11:02+08:00 ] 127.0.0.1 /Cars/index.php/Admin/User/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\wamp\www\Cars\APP\Lib\Action\CommonAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `up_user` [ RunTime:0.006666s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `up_user` WHERE ( type=0 ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SELECT * FROM `up_user` WHERE ( type=0 ) LIMIT 0,5   [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant __GROUP_NAME__ - assumed '__GROUP_NAME__' C:\wamp\www\Cars\APP\Runtime\Cache\Admin\0af99c6145f464d4841eb41b389029cc.php 第 71 行.
+NOTIC: [8] Use of undefined constant __GROUP_NAME__ - assumed '__GROUP_NAME__' C:\wamp\www\Cars\APP\Runtime\Cache\Admin\0af99c6145f464d4841eb41b389029cc.php 第 72 行.
+NOTIC: [8] Use of undefined constant __GROUP_NAME__ - assumed '__GROUP_NAME__' C:\wamp\www\Cars\APP\Runtime\Cache\Admin\0af99c6145f464d4841eb41b389029cc.php 第 71 行.
+NOTIC: [8] Use of undefined constant __GROUP_NAME__ - assumed '__GROUP_NAME__' C:\wamp\www\Cars\APP\Runtime\Cache\Admin\0af99c6145f464d4841eb41b389029cc.php 第 72 行.
+NOTIC: [8] Use of undefined constant __GROUP_NAME__ - assumed '__GROUP_NAME__' C:\wamp\www\Cars\APP\Runtime\Cache\Admin\0af99c6145f464d4841eb41b389029cc.php 第 71 行.
+NOTIC: [8] Use of undefined constant __GROUP_NAME__ - assumed '__GROUP_NAME__' C:\wamp\www\Cars\APP\Runtime\Cache\Admin\0af99c6145f464d4841eb41b389029cc.php 第 72 行.
+NOTIC: [8] Use of undefined constant __GROUP_NAME__ - assumed '__GROUP_NAME__' C:\wamp\www\Cars\APP\Runtime\Cache\Admin\0af99c6145f464d4841eb41b389029cc.php 第 71 行.
+NOTIC: [8] Use of undefined constant __GROUP_NAME__ - assumed '__GROUP_NAME__' C:\wamp\www\Cars\APP\Runtime\Cache\Admin\0af99c6145f464d4841eb41b389029cc.php 第 72 行.
+NOTIC: [8] Use of undefined constant __GROUP_NAME__ - assumed '__GROUP_NAME__' C:\wamp\www\Cars\APP\Runtime\Cache\Admin\0af99c6145f464d4841eb41b389029cc.php 第 71 行.
+NOTIC: [8] Use of undefined constant __GROUP_NAME__ - assumed '__GROUP_NAME__' C:\wamp\www\Cars\APP\Runtime\Cache\Admin\0af99c6145f464d4841eb41b389029cc.php 第 72 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.055891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056005s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000521s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000365s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002407s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000872s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2014-09-07T09:19:26+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Search/searchActivity
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001739s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant college - assumed 'college' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant state - assumed 'state' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant opera - assumed 'opera' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 69 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 70 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 71 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 72 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 73 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 74 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 75 行.
+NOTIC: [8] Undefined variable: activity C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 78 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041461s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001137s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000737s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003414s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000808s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2014-09-07T09:19:27+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Inform/showAllInform
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `up_inform` [ RunTime:0.029950s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `up_inform` LIMIT 1   [ RunTime:0.000458s ]
+SQL: SELECT * FROM `up_inform` LIMIT 0,5   [ RunTime:0.000284s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\Cars\APP\Modules\Admin\Action\InformAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034187s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001032s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000905s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002048s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002271s ]
+
+[ 2014-09-07T09:43:37+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Search/searchInform
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant college - assumed 'college' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant modifyTime - assumed 'modifyTime' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant opera - assumed 'opera' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\8470e2e25b5a055d62bc3b10a20ebee8.php 第 68 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\8470e2e25b5a055d62bc3b10a20ebee8.php 第 69 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\8470e2e25b5a055d62bc3b10a20ebee8.php 第 70 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\8470e2e25b5a055d62bc3b10a20ebee8.php 第 71 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\8470e2e25b5a055d62bc3b10a20ebee8.php 第 72 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\8470e2e25b5a055d62bc3b10a20ebee8.php 第 73 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\8470e2e25b5a055d62bc3b10a20ebee8.php 第 74 行.
+NOTIC: [8] Undefined variable: inform C:\wamp\www\Cars\APP\Runtime\Cache\Admin\8470e2e25b5a055d62bc3b10a20ebee8.php 第 76 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020247s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000696s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000659s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003451s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001073s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2014-09-07T09:43:39+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Search/SearchInform
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant college - assumed 'college' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant modifyTime - assumed 'modifyTime' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant opera - assumed 'opera' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `up_inform` [ RunTime:0.004800s ]
+NOTIC: [2] strtoupper() expects parameter 1 to be string, array given C:\wamp\www\Cars\ThinkPHP\Lib\Core\Db.class.php 第 508 行.
+SQL: SELECT * FROM `up_inform` WHERE ( (`title` LIKE '%%') AND (`content` LIKE '%%') AND ((`time` >= '2012-09-07') AND (`time` <= '2016-09-07') ) )  [ RunTime:0.028710s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: state C:\wamp\www\Cars\APP\Runtime\Cache\Admin\87ffb51e5aadb08a8e7d47c33c623096.php 第 73 行.
+NOTIC: [8] Undefined index: numbers C:\wamp\www\Cars\APP\Runtime\Cache\Admin\87ffb51e5aadb08a8e7d47c33c623096.php 第 82 行.
+NOTIC: [8] Undefined index: numbers C:\wamp\www\Cars\APP\Runtime\Cache\Admin\87ffb51e5aadb08a8e7d47c33c623096.php 第 82 行.
+NOTIC: [8] Undefined index: numbers C:\wamp\www\Cars\APP\Runtime\Cache\Admin\87ffb51e5aadb08a8e7d47c33c623096.php 第 82 行.
+NOTIC: [8] Undefined index: numbers C:\wamp\www\Cars\APP\Runtime\Cache\Admin\87ffb51e5aadb08a8e7d47c33c623096.php 第 82 行.
+NOTIC: [8] Undefined index: numbers C:\wamp\www\Cars\APP\Runtime\Cache\Admin\87ffb51e5aadb08a8e7d47c33c623096.php 第 82 行.
+NOTIC: [8] Undefined index: numbers C:\wamp\www\Cars\APP\Runtime\Cache\Admin\87ffb51e5aadb08a8e7d47c33c623096.php 第 82 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013444s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000546s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000575s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2014-09-07T09:43:42+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Search/searchActivity
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant college - assumed 'college' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant state - assumed 'state' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant opera - assumed 'opera' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 69 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 70 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 71 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 72 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 73 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 74 行.
+NOTIC: [8] Undefined variable: aa C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 75 行.
+NOTIC: [8] Undefined variable: activity C:\wamp\www\Cars\APP\Runtime\Cache\Admin\9e0807de8c7a6fe07eefc328817ac63a.php 第 78 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022938s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000628s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000658s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002575s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000664s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2014-09-07T09:43:43+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Search/SearchActivity
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant college - assumed 'college' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant state - assumed 'state' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant opera - assumed 'opera' C:\wamp\www\Cars\APP\Modules\Admin\Action\SearchAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `up_activity` [ RunTime:0.005293s ]
+NOTIC: [2] strtoupper() expects parameter 1 to be string, array given C:\wamp\www\Cars\ThinkPHP\Lib\Core\Db.class.php 第 508 行.
+SQL: SELECT * FROM `up_activity` WHERE ( (`title` LIKE '%%') AND (`content` LIKE '%%') AND ((`starttime` >= '2012-09-07') AND (`starttime` <= '2016-09-07') ) )  [ RunTime:0.000357s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014284s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000690s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000595s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002650s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000737s ]
+

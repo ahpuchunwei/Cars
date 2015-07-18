@@ -1,0 +1,236 @@
+@charset "utf-8";
+.con_left {
+	float: left;
+	height: auto;
+	width: 670px;
+}
+.con_left .current_nav {
+	font-size: 14px;
+	padding-bottom: 12px;
+	border-bottom:1px solid #ddd;
+}
+.con_left .current_nav .sub {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.con_left .current_nav a:hover {
+	color: #DB2323;
+	text-decoration: none;
+}
+.con_left .artical_part .artical_title {
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+}
+.con_left .artical_part .artical_title h1 {
+	font-size: 20px;
+}
+.con_left .artical_part .artical_title .artical_info {
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	color: #999;
+}
+.con_left .artical_part .artical_title .artical_info span {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.con_left .artical_part .artical_title .artical_info span strong {
+	color: #333;
+}
+.con_left .artical_part .artical_content p {
+	color: #000;
+	padding: 10px 0;
+	font-size: 16px;
+	line-height: 24px;
+	word-wrap: break-word;
+}
+.con_left .artical_part .shareto {
+	width: 570px;
+	height: 32px;
+	padding: 20px 0px 0px 100px;
+}
+.con_left .artical_part .shareto span {
+	line-height: 32px;
+	float: left;
+}
+.con_left #discuss_part {
+	width: 670px;
+	padding-top: 20px;
+}
+.con_left #discuss_part span a{
+	color: #DB2323;
+	font-weight: bold;
+}
+.con_left #discuss_part span strong {
+	color: #000;
+}
+.con_left #discuss_part .add_com {
+	margin-top: 30px;
+}
+.con_left #discuss_part .add_com .new_com {
+	width: 645px;
+	height: 200px;
+	border: 2px solid #ddd;
+	border-top:4px solid #DB2323;
+	padding:20px 0px 0px 20px;
+}
+.con_left #discuss_part .add_com .new_com textarea {
+	position: absolute;
+	width: 622px;
+	height: 150px;
+	border: 0;
+	resize: none;
+	outline: none;
+	font-size: 14px;
+	line-height: 26px;
+	background: none;
+}
+.con_left #discuss_part .add_com .new_com .submit {
+	font-size: 20px;
+	color: #FFF;
+	background-color: #DB2323;
+	height: 40px;
+	width: 100px;
+	float: right;
+	margin-top: 160px;
+	font-weight: bold;
+	border: 0;
+}
+
+.con_left #discuss_part h3 {
+	font-size: 14px;
+	height: 24px;
+}
+.con_left #discuss_part .comment_list {
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+	border-top: 2px solid #DB2323;
+}
+.con_left #discuss_part .comment_list .ul_comment_list {
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 20px;
+}
+.con_left #discuss_part .comment_list .ul_comment_list .li_comment_list {
+	width: 668px;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+.con_left #discuss_part .comment_list .ul_comment_list .li_comment_list .comment_info {
+	height: 40px;
+}
+.con_left #discuss_part .comment_list .ul_comment_list .li_comment_list .comment_info .floor {
+	font-size: 16px;
+	font-weight: bold;
+	width: 40px;
+	padding-left: 30px;
+	padding-top: 15px;
+	float: left;
+	color: #333;
+}
+.con_left #discuss_part .comment_list .ul_comment_list .li_comment_list .comment_info .com_time {
+	float: left;
+	width: 200px;
+	height: 17px;
+	padding-top: 20px;
+	color: #666;
+}
+.con_left #discuss_part .comment_list .ul_comment_list .li_comment_list .comment_con {
+	font-size: 14px;
+	padding-left: 30px;
+}
+.con_left #discuss_part .comment_list .ul_comment_list .li_comment_list .comment_con p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.con_left #discuss_part .comment_list .ul_comment_list .li_comment_list .com_bot .com_user_info {
+	text-align: right;
+	padding-right: 30px;
+	padding-bottom:20px;
+	font-size: 14px;
+	color: #333;
+}
+
+.con_right{
+	float: right;
+	width: 250px;
+}
+/*热门活动*/
+#right_act{
+	height: auto;
+	border: solid 1px #ddd;
+	float: left;
+}
+#right_act:hover{
+    /*
+	border:#ff0000 solid 1px;
+	*/
+	/*鼠标经过div变色*/
+}
+#right_act .list_Title{
+	height: 30px;
+	width: 250px;
+	border-bottom: 1px solid #ddd;
+}
+#right_act .list_Title .list_Title_con{
+	margin-left: 15px;
+	margin-top: 5px;
+	width: 100px;
+	height: 20px;
+	float: left;
+	font-size: 14px;
+	font-weight: bold
+}
+#right_act .list_Title .list_Title_more{
+	margin-right: 10px;
+	margin-top: 5px;
+	width: 50px;
+	height: 20px;
+	float: right;
+	
+}
+#right_act .list_Con{
+	width: 250px;
+}
+#right_act .list_Con .list_ul{
+	height:auto;
+}
+#right_act .list_Con .list_li{
+	padding:7px 0px 0px 5px;
+	height: 22px;
+	font-size: 12px;
+	line-height:14px;
+	background-image:none;
+}
+#right_act .list_Con .list_li .hot_num{
+	float: left;
+	height: 14px;
+	width: 16px;
+	display: inline;
+	text-align: center;
+	line-height: 16px;
+	margin-right: 5px;
+	color: #FFF;
+	background-color: #999;
+}
+#right_act .list_Con .list_li .title_a{
+	float:left;
+	width:140px;
+}
+#right_act .list_Con .list_li .title_date{
+	float: right;
+	margin-right: 5px;
+	width: 45px;
+	color: #999;
+}
+#right_act .list_Con a{
+	color:#333;
+}
+#right_act .list_Con a:hover{
+	color:#DB2323;
+}

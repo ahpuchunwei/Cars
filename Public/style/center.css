@@ -1,0 +1,143 @@
+@charset "utf-8";
+#main{
+	width:1024px;	
+}
+#about,#contact,#protocol,#statement,#advise{
+	border:1px solid #DDD;
+}
+#contact,#protocol,#statement,#advise{
+	margin-top:30px;
+}
+h4{
+	padding:8px 0px 8px 35px;
+	color:#DB2323;
+	background-color:#EEE;
+	font-size:16px;
+	border-bottom:1px solid #DDD;
+}
+.about{
+	background-image:url(../images/icon/about.png);
+	background-repeat:no-repeat;
+}
+.contact{
+	background-image:url(../images/icon/contact.png);
+	background-repeat:no-repeat;
+}
+.protocol{
+	background-image:url(../images/icon/protocol.png);
+	background-repeat:no-repeat;
+}
+.statement{
+	background-image:url(../images/icon/statement.png);
+	background-repeat:no-repeat;
+}
+.advise{
+	background-image:url(../images/icon/advise.png);
+	background-repeat:no-repeat;
+}
+.con{
+	width:800px;
+	margin:0 auto;	
+	padding:20px 0px;
+}
+#contact .con{
+	height:205px;
+}
+.con .id_card{
+	width:360px;
+	height:202px;
+	float:left;
+	background-image:url(../images/id_card.png);
+	background-repeat:no-repeat;
+}
+.con .contact_info{
+	width:380px;
+	height:202px;
+	margin-left:30px;
+	float:left;
+}
+.tel , .email , .weibo , .add{
+	font-size:14px;
+	padding-top:18px;
+	height:30px;	
+}
+#advise{
+	clear:both;
+}
+.advise_table {
+	width: 500px;
+	margin: 0px auto;
+	padding:20px 0px;
+}
+.advise_table p {
+	margin-bottom:20px;
+}
+.advise_table .item{
+	width: 70px;
+	height:20px;
+	float: left;
+	text-align:right;
+	margin-right:10px;
+	padding-top:10px
+}
+.advise_table .txt{
+	width: 350px;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 8px;
+	border: 2px solid #eee;
+}
+.advise_table .txt:hover{
+	border:2px solid #DB2323;
+}
+.advise_table .txt:focus{
+	/*输入框聚焦时边缘变色需要先去除浏览器自身效果*/
+	outline:none;
+	border:2px solid #DB2323;
+}
+.advise_table .tips{
+	padding-left: 90px;
+	color:#aaa;
+	width: 300px;
+}
+textarea {
+	width: 360px;
+	height: 150px;
+	border: 2px solid #eee;
+	resize: none;
+	outline: none;
+	font-size: 14px;
+	line-height: 18px;
+}
+.txt.txt_check {
+	width: 150px;
+	float: left;
+	margin-right: 20px;
+}
+.btn_part {
+	padding-top: 10px;
+	height: 50px;
+	width: 500px;
+	text-align: center;
+}
+.btn_part .btn {
+	font-size: 16px;
+	width: 100px;
+	height: 40px;
+	margin:0 5px;
+	border: 0px;
+}
+.btn.btn_submit{
+	background-color:#DB2323;
+	color:#FFF;
+}
+.btn.btn_submit:hover{
+	background-color:#B01C1C;
+}
+.btn.btn_reset{
+	background-color:#7FD052;
+	color:#FFF;
+}
+.btn.btn_reset:hover{
+	background-color:#4A8E26;
+}

@@ -1,0 +1,73 @@
+@charset "utf-8";
+/*左半边*/
+.con_left {
+	float: left;
+	height: auto;
+	width: 670px;
+}
+#main .con_left .current_nav {
+	font-size: 14px;
+	padding-bottom: 12px;
+	border-bottom:0px;
+}
+.con_left .current_nav .sub {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.con_left .current_nav a:hover {
+	color: #DB2323;
+	text-decoration: none;
+}
+.artical_list{
+	border:1px solid #ddd;
+}
+.con_left .artical_list ul {
+	font-size: 14px;
+	color: #999;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 15px;
+
+}
+.con_left .artical_list ul .list_Con {
+	width: 610px;
+	height: 40px;
+	padding:10px 30px;
+	border-bottom: 1px dashed #ddd;
+}
+.con_left .artical_list ul .list_Con .list_Title a {
+	font-size: 16px;
+	color: #000;
+	padding-bottom: 2px;
+	
+}
+.con_left .artical_list ul .list_Con .list_Title a:hover {
+	font-size: 16px;
+	color: #DB2323;
+	text-decoration: none;
+}
+.con_left .artical_list ul .list_Con .short_con {
+	width: 670px;
+	padding-top: 1px;
+}
+.con_left .artical_list ul .list_Con .post_time {
+	/*padding-left:30px;*/
+	float:right;
+}
+.con_left .page_part {
+	margin: 0px;
+	width:670px;
+	padding:20px 0px;
+}
+.con_left .page_part .button_part {
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+}
+
+/*右半边*/
+.con_right{
+	float: right;
+	width: 250px;
+}

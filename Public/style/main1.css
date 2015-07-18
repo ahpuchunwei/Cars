@@ -1,0 +1,315 @@
+@charset "utf-8";
+body {
+	margin:0;
+	font-size: 12px;
+	font-family: "Microsoft Yahei","微软雅黑";
+}
+a:link,a:visited{
+ 	text-decoration:none;  /*超链接无下划线*/
+ 	color:#000;
+}
+a:hover{
+	text-decoration:none;  /*鼠标放上去有下划线*/
+	color:#DB2323;
+}
+/*中间部分大div*/
+#main{
+	height: 970px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	/*background-color: #CCC;*/
+	margin-top: 15px;
+}
+
+/*各个大标题的共用css*/
+.list_Title_icon {
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+	color: #FFF;
+	background-color: #DB2323;
+	width: auto;
+	font-size: 16px;
+	line-height:24px;
+	height:24px;
+	font-weight: bold;
+}
+.list_Title_con {
+	padding-left: 10px;
+	float: left;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #DB2323;
+}
+.list_Title_more {
+	float: right;
+	line-height:24px;
+	font-size: 14px;
+}
+
+/*通知公告*/
+#tongzhi{
+	height: 320px;
+	width: 222px;
+	float: left;
+	border: solid 1px #ddd;
+	background-image:url(../images/icon/tongzhi.png);
+	background-repeat:no-repeat;
+}
+#tongzhi .list_Title{
+	height: 30px;
+	width: 222px;
+	border-bottom: 1px solid #ddd;
+}
+#tongzhi .list_Title .list_Title_con{
+	margin:5px 0px 0px 15px;
+	width: 100px;
+	height: 20px;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+#tongzhi .list_Title .list_Title_more{
+	margin-right: 10px;
+	margin-top: 5px;
+	width: 50px;
+	height: 20px;
+	float: right;
+}
+#tongzhi .list_Con{
+	width: 222px;
+	
+}
+
+#tongzhi .list_Con .list_li{
+	padding:5px 5px 0px 20px;
+	height: 25px;
+	font-size: 12px;
+}
+#tongzhi .list_Con .list_li:hover{
+	/*background-color:#eee;*/
+}
+#tongzhi .list_Con .act_title{
+	float:left;
+}
+#tongzhi .list_Con .act_date{
+	float:right;
+	color: #999;
+}
+
+/*快速登录*/
+/*快速登录以前显示信息的css*/
+#tongzhi .fast_login {
+	height: 139px;
+	width: 222px;
+	border-top: 1px solid #ddd;
+	background-image:url(../images/icon/fast_login.png);
+	background-repeat:no-repeat;
+}
+#tongzhi .fast_login form {
+	font-size: 14px;
+	padding-top: 10px;
+}
+#tongzhi .fast_login form #textfield {
+	height: 20px;
+	width:150px;
+	padding-left:5px;
+}
+#tongzhi .fast_login form p {
+	width: 222px;
+	height: 30px;
+	margin: 0;
+	text-align: center;
+}
+#tongzhi .fast_login form p .btn {
+	font-size: 14px;
+	width: 60px;
+	height:25px;
+	margin-right: 5px;
+}
+/*快速登录以后显示信息的css*/
+#tongzhi .fast_login .user_info {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+#tongzhi .fast_login .user_info .user_name {
+	margin: 0px;
+}
+#tongzhi .fast_login .user_info .user_name .wel_row {
+	padding-left:30px;
+	font-size:12px;
+}
+#tongzhi .fast_login .user_info .user_name .name_row {
+	font-size:16px;
+	font-weight:bold;
+	color:#000;
+}
+#tongzhi .fast_login .user_info .college{
+	margin-top: 5px;
+}
+#tongzhi .fast_login .user_info .college .col_row{
+	font-weight:bold;
+	font-size:16px;
+}
+#tongzhi .fast_login .user_info p {
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+}
+#tongzhi .fast_login .user_info p .btn {
+	margin-right:3px;
+	height:25px;
+}
+
+/*热门活动*/
+#hot_act{
+	margin-left:15px; 
+	height: 320px;
+	width:220px;
+	border: solid 1px #ddd;
+	float:left;	
+	background-image:url(../images/icon/hot_act.png);
+	background-repeat:no-repeat;
+}
+#hot_act .list_Title{
+	height:30px;
+	width: 220px;
+	border-bottom: 1px solid #ddd;
+}
+#hot_act .list_Title .list_Title_con{
+	margin:5px 0px 0px 15px;
+	width: 100px;
+	height: 20px;
+	float: left;
+	font-size: 14px;
+	font-weight: bold
+}
+#hot_act .list_Title .list_Title_more{
+	margin-right: 10px;
+	margin-top: 5px;
+	width: 50px;
+	height: 20px;
+	float: right;
+	
+}
+#hot_act .list_Con{
+	width: 220px;
+}
+#hot_act .list_Con .list_ul{
+	height:150px;
+}
+#hot_act .list_Con .list_li{
+	padding:7px 0px 0px 5px;
+	height: 22px;
+	font-size: 12px;
+	line-height:14px;
+	background-image:none;
+}
+#hot_act .list_Con .list_li .hot_num{
+	float:left;
+	height:12px;
+	width:16px;
+	display: inline;
+	text-align: center;
+	line-height:14px;
+	margin-right:5px;
+	color:#FFF;
+	background-color:#999;
+}
+#hot_act .list_Con .list_li .title_a{
+	float:left;
+	width:140px;
+}
+#hot_act .list_Con .list_li .title_date{
+	float: right;
+	margin-right: 5px;
+	width: 45px;
+	color: #999;
+}
+#hot_act .list_Con a{
+	color:#333;
+}
+#hot_act .list_Con a:hover{
+	color:#DB2323;
+}
+
+/*学院学校活动共用css*/
+#school_academy{
+	margin-top: 12px;
+	height: 310px;
+	width: 672px;
+	float: left;
+}
+#school_academy .list_Title{
+	width: 669px;
+	height: 24px;
+	border-bottom: #DB2323 solid 2px;
+}
+#school_academy .list_Title a:hover{
+	color:#DB2323;
+}
+#school_academy .list_Con{
+	width: 670px;
+}
+#school_academy .list_Con .list_Con_left{
+	margin: 0;
+	width: 330px;
+	height:280px;
+	float: left;
+	border-left: 1px solid #ddd;
+	border-right: 1px dashed #ddd;
+	border-bottom: 1px solid #ddd;
+}
+/*校级、院级、社团商业共用css*/
+.list_Con .list_li{
+	padding:5px 10px 0px 20px;
+	height: 30px;
+	font-size: 14px;
+	background-image:url(../images/list_style.png);
+	background-repeat:no-repeat;
+}
+.list_Con .list_li:hover{
+	background-image:url(../images/list_style_hover.png);
+	background-repeat:no-repeat;
+	/*background-color:#eee;*/
+}
+.list_Con .act_title{
+	float:left;
+}
+.list_Con .act_date{
+	float:right;
+	color: #999;
+}
+/*校级、院级、社团商业共用css结束*/
+#school_academy .list_Con .list_Con_right{
+	margin: 0;
+	margin-left: 5px;
+	float: left;
+	width: 330px;
+	height:280px;
+	border-left: 1px dashed #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+/*社团活动共用css*/
+#shetuan_act{
+	margin-top: 12px;
+	height: 632px;
+	width: 340px;
+	float: right;
+}
+#shetuan_act .list_Title{
+	width: 340px;
+	height: 24px;
+	border-bottom: #DB2323 solid 2px;
+}
+#shetuan_act .list_Con{
+	margin: 0;
+	width: 338px;
+	height: 602px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}

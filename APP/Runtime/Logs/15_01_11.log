@@ -1,0 +1,253 @@
+[ 2015-01-11T15:00:06+08:00 ] 127.0.0.1 /Cars/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.076037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.076256s ]
+ERR: 无法加载模块:Index
+
+[ 2015-01-11T15:00:10+08:00 ] 127.0.0.1 /Cars/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.042858s ]
+INFO: [ route_check ] --END-- [ RunTime:0.043025s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\Cars\APP\Lib\Action\CommonAction.class.php 第 4 行.
+
+[ 2015-01-11T15:00:10+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.267224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.267613s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.022313s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.034501s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.033077s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.092500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002337s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002482s ]
+
+[ 2015-01-11T15:00:11+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+
+[ 2015-01-11T15:00:18+08:00 ] 127.0.0.1 /Cars/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+ERR: 无法加载模块:Index
+
+[ 2015-01-11T15:10:46+08:00 ] 127.0.0.1 /Cars/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+ERR: 无法加载模块:Index
+
+[ 2015-01-11T15:12:26+08:00 ] 127.0.0.1 /Cars/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001677s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001888s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\Cars\APP\Lib\Action\CommonAction.class.php 第 4 行.
+
+[ 2015-01-11T15:12:26+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023921s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000992s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000929s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000688s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003973s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001111s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2015-01-11T15:12:26+08:00 ] 127.0.0.1 /Cars/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001677s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001888s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002116s ]
+
+[ 2015-01-11T15:12:31+08:00 ] 127.0.0.1 /Cars/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+ERR: 无法加载模块:Index
+
+[ 2015-01-11T15:12:42+08:00 ] 127.0.0.1 /Cars/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `up_inform` [ RunTime:0.034400s ]
+SQL: SELECT * FROM `up_inform` ORDER BY time desc LIMIT 8   [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `up_activity` [ RunTime:0.035274s ]
+SQL: SELECT * FROM `up_activity` ORDER BY starttime desc LIMIT 16   [ RunTime:0.001347s ]
+SQL: SELECT * FROM `up_activity` ORDER BY starttime desc LIMIT 17   [ RunTime:0.000965s ]
+SQL: SELECT * FROM `up_activity` ORDER BY starttime desc LIMIT 16   [ RunTime:0.000847s ]
+SQL: SELECT * FROM `up_activity` ORDER BY starttime desc LIMIT 16   [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 274 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 275 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 280 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 281 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 286 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 287 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 292 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 293 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 298 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 299 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 304 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 305 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 310 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 311 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 316 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 317 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 322 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 323 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 328 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 329 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.384183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.384358s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001458s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000970s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004626s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001087s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2015-01-11T15:12:48+08:00 ] 127.0.0.1 /Cars/index.php/Index/Read/detailActivity/aid/41/position/%E6%A0%A1%E7%BA%A7%E6%B4%BB%E5%8A%A8
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001927s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `up_regform` [ RunTime:0.025509s ]
+SQL: SELECT * FROM `up_regform` WHERE ( aid=41 )  [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `up_activity` [ RunTime:0.006442s ]
+SQL: SELECT * FROM `up_activity` WHERE ( aid=41 )  [ RunTime:0.000434s ]
+SQL: SELECT * FROM `up_activity` WHERE ( aid=41 )  [ RunTime:0.000268s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\Cars\APP\Modules\Index\Action\ReadAction.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant state - assumed 'state' D:\wamp\www\Cars\APP\Modules\Index\Action\ReadAction.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\wamp\www\Cars\APP\Modules\Index\Action\ReadAction.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Cars\APP\Modules\Index\Action\ReadAction.class.php 第 41 行.
+SQL: SELECT * FROM `up_activity` LIMIT 10   [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `up_activity` [ RunTime:0.005771s ]
+SQL: SELECT * FROM `up_activity` ORDER BY starttime desc LIMIT 16   [ RunTime:0.000796s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\Cars\APP\Modules\Index\Action\ReadAction.class.php 第 78 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant 热门活动 - assumed '热门活动' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 353 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 353 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 354 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 359 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 360 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 365 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 366 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 371 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 372 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 377 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 378 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 383 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 384 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 389 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 390 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 395 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 396 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 401 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 402 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 407 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 408 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.079278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079473s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001654s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001623s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001007s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006111s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2015-01-11T15:12:49+08:00 ] 127.0.0.1 /Cars/index.php/Index/Read/detailActivity/aid/52/position/%E5%AD%A6%E9%99%A2%E6%B4%BB%E5%8A%A8
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `up_regform` [ RunTime:0.030861s ]
+SQL: SELECT * FROM `up_regform` WHERE ( aid=52 )  [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `up_activity` [ RunTime:0.006042s ]
+SQL: SELECT * FROM `up_activity` WHERE ( aid=52 )  [ RunTime:0.000337s ]
+SQL: SELECT * FROM `up_activity` WHERE ( aid=52 )  [ RunTime:0.000212s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\Cars\APP\Modules\Index\Action\ReadAction.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant state - assumed 'state' D:\wamp\www\Cars\APP\Modules\Index\Action\ReadAction.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\wamp\www\Cars\APP\Modules\Index\Action\ReadAction.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Cars\APP\Modules\Index\Action\ReadAction.class.php 第 41 行.
+SQL: SELECT * FROM `up_activity` LIMIT 10   [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `up_activity` [ RunTime:0.005692s ]
+SQL: SELECT * FROM `up_activity` ORDER BY starttime desc LIMIT 16   [ RunTime:0.000853s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\Cars\APP\Modules\Index\Action\ReadAction.class.php 第 78 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant 热门活动 - assumed '热门活动' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 353 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 353 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 354 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 359 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 360 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 365 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 366 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 371 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 372 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 377 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 378 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 383 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 384 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 389 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 390 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 395 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 396 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 401 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 402 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 407 行.
+NOTIC: [8] Use of undefined constant starttime - assumed 'starttime' D:\wamp\www\Cars\APP\Runtime\Cache\Index\fe625d9b2787a9ca7643042b4c647e46.php 第 408 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039684s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000963s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004262s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000939s ]
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册--活动在线报名系统</title>
+<link rel="__PUBLIC__/shortcut icon" href="favicon.ico" />
+<link href="__PUBLIC__/style/common.css" rel="stylesheet" />
+<link href="__PUBLIC__/style/reg.css" rel="stylesheet" />
+</head>
+<body>
+<!--网页头部开始-->
+<div id="head_part">
+	<div class="head_inner">
+    	<a href="#"><img src="__PUBLIC__/images/login/small_logo.png" alt="Up-Team作品：校园活动在线报名系统" /></a>
+        <h1>账户注册</h1>
+    </div>
+</div>
+<!--网页头部结束-->
+
+<!--网页中部开始-->
+<div id="main">
+	<form action="" method="post" name="reg_table" class="reg_table">
+    	<div class="input_part">
+    	<p class="item_name">
+        	<label class="item">账户</label>
+            <input name="txt_name" type="text" maxlength="10" class="txt"/>
+            <br />
+            <span class="tips">请输入您的10位学号，如：1208067040</span></p>
+        <p class="item_pwd">
+        	<label class="item">密码</label>
+            <input name="txt_pwd1" type="password" maxlength="16" class="txt"/>
+            <br /><span class="tips">长度为6-16字符，尽量使用英文字母+数字+符号</span>
+        </p>
+        <p class="item_pwd2">
+        	<label class="item">确认密码</label>
+            <input name="txt_pwd2" type="password" maxlength="16" class="txt"/>
+            <br /><span class="tips">请再次输入您刚刚输入的密码！</span>
+        </p>
+        <p class="item_realname">
+        	<label class="item">真实姓名</label>
+            <input name="txt_realname" type="text" maxlength="20" class="txt"/>
+            <br /><span class="tips">请输入您的真实姓名，长度为20字符，此项以后无法更改</span>
+        </p>
+        <p class="item_sex">
+       	  	<label class="item">性别</label>
+            <input name="sel_sex" type="radio" value="0" id="sec" class="sel_sex"/><label for="sec" class="sel_sex label_sex">保密</label>
+            <input name="sel_sex" type="radio" value="1" id="male" class="sel_sex"/><label for="male" class="sel_sex label_sex">男生</label>  
+            <input name="sel_sex" type="radio" value="2" id="female" class="sel_sex"/><label for="female" class="sel_sex label_sex">女生</label>
+        </p>
+        <p class="item_acc_class">
+       	  <label class="item">所在学院</label>
+            <select name="sel_acc" class="sel_acc">
+              <option value="计算机信息工程学院">计算机信息工程学院</option>
+              <option value="软件学院">软件学院</option>
+            </select>
+            <select name="sel_class" class="sel_class">
+              <option value="12级物联网班">12级物联网班</option>
+              <option value="12级科技1班">12级科技1班</option>
+          </select>
+          <br /><span class="tips">请认真选择您所在的学院班级，此项以后无法更改</span>
+        </p>
+        <p class="item_phone">
+        	<label class="item">联系电话</label>
+            <input name="txt_phone" type="text" maxlength="11" class="txt"/>
+            <br /><span class="tips">为了方便通知您活动进展，请填写能接收消息的号码</span>
+        </p>
+        <p class="item_checksum">
+        	<label class="item">验证码</label>
+            <input name="txt_check" type="text" maxlength="4" class="txt txt_check"/>
+             <a href="#"><img src="{:U(GROUP_NAME.'/Login/verify')}" id="code"/></a>
+             <br /><span class="tips">看不清验证码？点击图片刷新验证码</span>
+        </p>
+        </div>
+        
+        <div class="btn_part">
+        	<a href="{:U(GROUP_NAME.'/Index/index')}"><input name="btn_backhome" type="button" value="返回" class="btn btn_backhome"/></a>
+        	<input name="btn_submit" type="submit" value="注册"   
+            	class="btn btn_submit"/>
+            <input name="btn_reset" type="reset" value="重置"   
+            	class="btn btn_reset"/>
+        </div>
+    </form>
+</div>
+<!--网页中部结束-->
+
+<!--底部开始-->
+<div id="bottom">
+	<div class="friend_link">
+    	<div class="list_Title">
+        	<span class="list_Title_icon">FLs</span>
+            <span class="list_Title_con">友情链接</span>
+        </div>
+        <!--友情链接图片和连接地址-->
+        <div class="list_Con">
+        <a href="http://jwc.jxnu.edu.cn" target="new"><img class="fls_icon" src="__PUBLIC__/images/fls_icon/jwc_jxnu.png" alt="江西师大教务在线"/></a>
+        <a href="http://jwc.jxnu.edu.cn" target="new"><img class="fls_icon" src="__PUBLIC__/images/fls_icon/jwc_jxnu.png" alt="江西师大教务在线"/></a>
+        <a href="http://jwc.jxnu.edu.cn" target="new"><img class="fls_icon" src="__PUBLIC__/images/fls_icon/jwc_jxnu.png" alt="江西师大教务在线"/></a>
+        <a href="http://jwc.jxnu.edu.cn" target="new"><img class="fls_icon" src="__PUBLIC__/images/fls_icon/jwc_jxnu.png" alt="江西师大教务在线"/></a>
+        <a href="http://jwc.jxnu.edu.cn" target="new"><img class="fls_icon" src="__PUBLIC__/images/fls_icon/jwc_jxnu.png" alt="江西师大教务在线"/></a>
+        </div>
+        <!--友情链接图片和连接地址结束-->
+    </div>
+    
+    <!--网站地图-->
+    <div class="map_info">
+    	<!--连接地图-->
+    	<ul class="foot_1">
+        	<!--关注我们-->
+        	<li class="span_foot_help">
+            	<h2 class="icon_weibo">关注我们</h2>
+                <p><a href="#">新浪微博</a></p>
+                <p><a href="#">腾讯微博</a></p>
+            </li>
+            
+            <!--客服中心-->
+            <li class="span_foot_help">
+            	<h2 class="icon_centre">客服中心</h2>
+                <p><a href="#">联系我们</a></p>
+                <p><a href="#">咨询建议</a></p>
+            </li>
+            
+            <!--关于本站-->
+            <li class="span_foot_help">
+            	<h2 class="icon_about">关于本站</h2>
+                <p><a href="#">关于我们</a></p>
+                <p><a href="#">用户协议</a></p>
+                <p><a href="#">免责声明</a></p>
+            </li>
+        </ul>
+        
+        <!--二维码-->
+		<div class="foot_2">
+        	<img src="__PUBLIC__/images/2_icon.png" alt="二维码"/>
+        </div>
+    </div>
+    <!--网站地图结束-->
+    
+    <!--版权信息-->
+    <div class="copyrights">
+    	<p align="center">版权：©校园活动在线报名系统   备案案号： 联系邮箱：</p>
+    </div>
+    
+    <!--安全检测图标认证-->
+    <div class="anquantubiao"></div>
+</div>
+<!--底部结束-->
+</body>
+</html>
